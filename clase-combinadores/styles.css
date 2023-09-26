@@ -1,0 +1,11 @@
+/* combinador hermano adyacente
+
+h2 + p {
+    color:red
+} */
+
+/* combinador hermano general */
+
+h2 ~ p {
+    color: yellow;
+}
