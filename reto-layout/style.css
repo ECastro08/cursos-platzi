@@ -8,12 +8,19 @@ header {
     height: 10vh;
 }
 .nav {
-    position: absolute;
+    position: static;
     right: 15px;
+    position: relative;
 }
 .nav-ul li {
+    background-color: coral;
     display: inline-block;
+    position: relative;
+    margin: 3px;
+    top: 3vh;
+    left: 80vw;
 }
+
 main {
     background-color: red;
     height: 80vh;
@@ -24,7 +31,7 @@ aside, section {
     background-color: orange;
 }
 aside {
-    width: 20vw;
+    width: 30vw;
     background-color: green;
 }
 aside .parrafo {
@@ -34,8 +41,8 @@ aside .parrafo {
 }
 section {
     position: absolute;
-    left: 20vw;
-    width: 80vw;
+    left: 30vw;
+    width: 70vw;
     padding: 15px;
     background-color: darkolivegreen;
 }
