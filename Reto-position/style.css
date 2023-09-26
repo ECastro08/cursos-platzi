@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container-ppal {
+    border: 1px solid red;
+    margin: 10px;
+    width: 500px;
+    height: 400px;
+}
+.section{
+display: inline-block;
+background-color: aqua;
+height: 100px;
+width: 100px;
+border: 2px solid black;
+margin: 20px;
+position: relative;
+}
+#box2 {
+    position: relative;
+    background-color: yellow;
+    top: 0 px;
+    left: 30px;
+}

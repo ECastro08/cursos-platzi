@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: aqua;
+    height: 10vh;
+}
+.nav {
+    position: absolute;
+    right: 15px;
+}
+.nav-ul li {
+    display: inline-block;
+}
+main {
+    background-color: red;
+    height: 80vh;
+}
+aside, section {
+    display: inline-block;
+    height: 80vh;
+    background-color: orange;
+}
+aside {
+    width: 20vw;
+    background-color: green;
+}
+aside .parrafo {
+    height: 15vh;
+    margin: 3vh;
+    background-color: blueviolet;
+}
+section {
+    position: absolute;
+    left: 20vw;
+    width: 80vw;
+    padding: 15px;
+    background-color: darkolivegreen;
+}
+
+footer {
+    background-color: yellowgreen;
+    height: 10vh;
+}
